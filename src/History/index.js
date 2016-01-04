@@ -1,9 +1,7 @@
 let events = {
-	queue: {
-		history: {
-			get_entries: "history.get_entries",
-			set_entries: "history.set_entries"
-		}
+	history: {
+		get_entries: "history.get_entries",
+		set_entries: "history.set_entries"
 	}
 }
 
