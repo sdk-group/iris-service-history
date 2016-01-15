@@ -1,7 +1,7 @@
 'use strict'
 
 let emitter = require("global-queue");
-let HistoryApi = require('resource-managment-framework').HistoryApi;
+let HistoryApi = require('resource-management-framework').HistoryApi;
 
 class History {
 	constructor() {
