@@ -8,15 +8,25 @@ class History {
 		this.emitter = emitter;
 	}
 
-	init(config) {
-		let bname = config.bucket;
+	init() {
 		this.iris = new HistoryApi();
-		this.iris.init(bname);
+		this.iris.initContent();
 	}
 
 	//API
-	getEntries() {}
-	setEntries() {}
+	actionGetEntries({
+		query
+	}) {
+		console.log("TODO: GET ENTRIES", query);
+		return Promise.resolve(true);
+	}
+
+	actionSetEntries({
+		data
+	}) {
+		console.log("TODO: SET ENTRIES", data);
+		return Promise.resolve(true);
+	}
 }
 
 module.exports = History;
