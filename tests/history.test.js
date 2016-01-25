@@ -8,9 +8,7 @@ describe("History service", () => {
 	let bucket = null;
 	before(() => {
 		service = new History();
-		service.init({
-			bucket: config.buckets.main
-		});
+		service.init();
 	});
 	describe("History service", () => {
 		it("should get history entries", (done) => {

@@ -18,14 +18,18 @@ class History {
 		query
 	}) {
 		console.log("TODO: GET ENTRIES", query);
-		return Promise.resolve(true);
+		return Promise.resolve({
+			success: true
+		});
 	}
 
 	actionSetEntries({
 		data
 	}) {
 		console.log("TODO: SET ENTRIES", data);
-		return Promise.resolve(true);
+		return Promise.resolve({
+			success: true
+		});
 	}
 }
 
