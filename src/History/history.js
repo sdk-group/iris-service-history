@@ -20,7 +20,8 @@ class History {
 			event_name,
 			reason
 		}) => {
-			this.setEntry({
+			console.log("HISTORY!", subject, object, event_name, reason);
+			this.actionSetEntry({
 				subject,
 				object,
 				event_name,
