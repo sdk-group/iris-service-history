@@ -20,7 +20,7 @@ class History {
 			event_name,
 			reason
 		}) => {
-			console.log("HISTORY!", subject, object, event_name, reason);
+			// console.log("HISTORY!", subject, object, event_name, reason);
 			this.actionSetEntry({
 				subject,
 				object,
@@ -47,7 +47,8 @@ class History {
 	}) {
 		let time = moment.utc()
 			.format('x');
-		let id = `history-${_.random()}-${time}`;
+		let r = _.random(4654);
+		let id = `history-${r}-${time}`;
 		let entry = {
 			id,
 			subject,
@@ -58,7 +59,7 @@ class History {
 		};
 		return this.iris.setEntry(entry)
 			.then((res) => {
-				console.log("HST SET", res);
+				// console.log("HST SET", res);
 				return {
 					success: true
 				};
