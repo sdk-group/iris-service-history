@@ -13,7 +13,8 @@ class History {
 	init() {
 		this.iris = new HistoryApi();
 		this.iris.initContent();
-
+	}
+	launch() {
 		this.emitter.on('history.log', ({
 			subject,
 			object,
@@ -28,6 +29,7 @@ class History {
 				reason
 			});
 		});
+		return Promise.resolve(true);
 	}
 
 	//API
