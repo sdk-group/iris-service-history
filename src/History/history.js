@@ -41,6 +41,27 @@ class History {
 		});
 	}
 
+	actionMakeEntry({
+		subject,
+		object,
+		event_name,
+		reason
+	}) {
+		let time = moment.utc()
+			.format('x');
+		let r = _.random(4654);
+		let id = `history-${r}-${time}`;
+		let entry = {
+			id,
+			subject,
+			object,
+			event_name,
+			reason,
+			time
+		};
+		return Promise.resolve(this.iris.makeEntry(entry));
+	}
+
 	actionSetEntry({
 		subject,
 		object,
