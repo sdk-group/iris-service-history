@@ -43,6 +43,7 @@ class History {
 
 	actionMakeEntry({
 		subject,
+		local_time,
 		object,
 		event_name,
 		reason
@@ -53,6 +54,7 @@ class History {
 		let id = `history-${r}-${time}`;
 		let entry = {
 			id,
+			local_time,
 			subject,
 			object,
 			event_name,
@@ -64,6 +66,7 @@ class History {
 
 	actionSetEntry({
 		subject,
+		local_time,
 		object,
 		event_name,
 		reason
@@ -75,6 +78,7 @@ class History {
 		let entry = {
 			id,
 			subject,
+			local_time,
 			object,
 			event_name,
 			reason,
