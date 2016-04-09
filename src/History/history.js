@@ -1,13 +1,13 @@
 'use strict'
 
-let emitter = require("global-queue");
+
 let HistoryApi = require('resource-management-framework')
 	.HistoryApi;
 let moment = require("moment-timezone");
 
 class History {
 	constructor() {
-		this.emitter = emitter;
+		this.emitter = message_bus;
 	}
 
 	init() {
