@@ -1,0 +1,968 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.1
+4 silly mapToRegistry name babel-plugin-remove-comments
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-remove-comments
+8 silly mapToRegistry name babel-plugin-transform-remove-console
+9 silly mapToRegistry using default registry
+10 silly mapToRegistry registry https://registry.npmjs.org/
+11 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-remove-console
+12 silly mapToRegistry name babel-plugin-transform-strict-mode
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-transform-strict-mode
+16 silly mapToRegistry name babel-plugin-undeclared-variables-check
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-undeclared-variables-check
+20 silly mapToRegistry name babel-preset-es2015
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015
+24 silly mapToRegistry name babel-preset-es2015-node5
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015-node5
+28 silly mapToRegistry name babel-preset-node5
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-node5
+32 silly mapToRegistry name chai
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/chai
+36 silly mapToRegistry name del
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/del
+40 silly mapToRegistry name gulp
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/gulp
+44 silly mapToRegistry name gulp-babel
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/gulp-babel
+48 silly mapToRegistry name gulp-changed
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/gulp-changed
+52 silly mapToRegistry name gulp-concat
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+56 silly mapToRegistry name gulp-develop-server
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/gulp-develop-server
+60 silly mapToRegistry name gulp-livereload
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/gulp-livereload
+64 silly mapToRegistry name gulp-mocha
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp-mocha
+68 silly mapToRegistry name gulp-nodemon
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/gulp-nodemon
+72 silly mapToRegistry name gulp-plumber
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/gulp-plumber
+76 silly mapToRegistry name gulp-sourcemaps
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+80 silly mapToRegistry name gulp-uglify
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+84 silly mapToRegistry name gulp-watch
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/gulp-watch
+88 silly mapToRegistry name moment-timezone
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/moment-timezone
+92 silly mapToRegistry name bluebird
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+96 silly mapToRegistry name lodash
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/lodash
+100 verbose get https://registry.npmjs.org/babel-plugin-transform-remove-console not expired, no request
+101 verbose get https://registry.npmjs.org/babel-plugin-transform-strict-mode not expired, no request
+102 verbose get https://registry.npmjs.org/babel-plugin-remove-comments not expired, no request
+103 verbose get https://registry.npmjs.org/babel-plugin-undeclared-variables-check not expired, no request
+104 verbose get https://registry.npmjs.org/babel-preset-es2015-node5 not expired, no request
+105 verbose get https://registry.npmjs.org/babel-preset-es2015 not expired, no request
+106 verbose get https://registry.npmjs.org/del not expired, no request
+107 verbose get https://registry.npmjs.org/chai not expired, no request
+108 verbose get https://registry.npmjs.org/gulp-changed not expired, no request
+109 verbose get https://registry.npmjs.org/gulp-babel not expired, no request
+110 verbose get https://registry.npmjs.org/gulp-livereload not expired, no request
+111 verbose get https://registry.npmjs.org/gulp-mocha not expired, no request
+112 verbose get https://registry.npmjs.org/gulp not expired, no request
+113 verbose get https://registry.npmjs.org/gulp-nodemon not expired, no request
+114 verbose get https://registry.npmjs.org/babel-preset-node5 not expired, no request
+115 verbose get https://registry.npmjs.org/gulp-develop-server not expired, no request
+116 verbose get https://registry.npmjs.org/gulp-concat not expired, no request
+117 verbose get https://registry.npmjs.org/gulp-plumber not expired, no request
+118 verbose request uri https://registry.npmjs.org/moment-timezone
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 11:21:25
+121 verbose request id 14f54c054d7035d0
+122 verbose etag "8NYDFWBK4LHZ61RAZ2NSHRP3J"
+123 http request GET https://registry.npmjs.org/moment-timezone
+124 verbose get https://registry.npmjs.org/bluebird not expired, no request
+125 verbose get https://registry.npmjs.org/lodash not expired, no request
+126 verbose get https://registry.npmjs.org/gulp-sourcemaps not expired, no request
+127 verbose get https://registry.npmjs.org/gulp-uglify not expired, no request
+128 verbose get https://registry.npmjs.org/gulp-watch not expired, no request
+129 http 304 https://registry.npmjs.org/moment-timezone
+130 verbose headers { date: 'Wed, 13 Apr 2016 05:22:46 GMT',
+130 verbose headers   via: '1.1 varnish',
+130 verbose headers   'cache-control': 'max-age=300',
+130 verbose headers   etag: '"8NYDFWBK4LHZ61RAZ2NSHRP3J"',
+130 verbose headers   age: '165',
+130 verbose headers   connection: 'keep-alive',
+130 verbose headers   'x-served-by': 'cache-fra1247-FRA',
+130 verbose headers   'x-cache': 'HIT',
+130 verbose headers   'x-cache-hits': '2',
+130 verbose headers   'x-timer': 'S1460524966.609919,VS0,VE0',
+130 verbose headers   vary: 'Accept-Encoding' }
+131 silly get cb [ 304,
+131 silly get   { date: 'Wed, 13 Apr 2016 05:22:46 GMT',
+131 silly get     via: '1.1 varnish',
+131 silly get     'cache-control': 'max-age=300',
+131 silly get     etag: '"8NYDFWBK4LHZ61RAZ2NSHRP3J"',
+131 silly get     age: '165',
+131 silly get     connection: 'keep-alive',
+131 silly get     'x-served-by': 'cache-fra1247-FRA',
+131 silly get     'x-cache': 'HIT',
+131 silly get     'x-cache-hits': '2',
+131 silly get     'x-timer': 'S1460524966.609919,VS0,VE0',
+131 silly get     vary: 'Accept-Encoding' } ]
+132 verbose etag https://registry.npmjs.org/moment-timezone from cache
+133 verbose get saving moment-timezone to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\moment-timezone\.cache.json
+134 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+135 info outdated updating [ { dep:
+135 info outdated      { package: [Object],
+135 info outdated        path: 'C:\\Users\\user\\Documents\\GitHub\\iris-service-history',
+135 info outdated        parent: [Object],
+135 info outdated        isMissing: true },
+135 info outdated     depname: 'bluebird',
+135 info outdated     current: undefined,
+135 info outdated     wanted: '3.3.5',
+135 info outdated     latest: '3.3.5',
+135 info outdated     req: '^3.3.5',
+135 info outdated     what: 'bluebird@3.3.5' },
+135 info outdated   { dep:
+135 info outdated      { package: [Object],
+135 info outdated        path: 'C:\\Users\\user\\Documents\\GitHub\\iris-service-history',
+135 info outdated        parent: [Object],
+135 info outdated        isMissing: true },
+135 info outdated     depname: 'lodash',
+135 info outdated     current: undefined,
+135 info outdated     wanted: '4.10.0',
+135 info outdated     latest: '4.10.0',
+135 info outdated     req: '^4.10.0',
+135 info outdated     what: 'lodash@4.10.0' },
+135 info outdated   { dep:
+135 info outdated      Node {
+135 info outdated        id: 178,
+135 info outdated        package: [Object],
+135 info outdated        path: 'C:\\Users\\user\\Documents\\GitHub\\iris-service-history\\node_modules\\global-queue',
+135 info outdated        realpath: 'C:\\Users\\user\\Documents\\GitHub\\iris-service-history\\node_modules\\global-queue',
+135 info outdated        parent: [Object],
+135 info outdated        isLink: false,
+135 info outdated        children: [Object],
+135 info outdated        error: null,
+135 info outdated        loaded: false,
+135 info outdated        requiredBy: [Object],
+135 info outdated        requires: [Object],
+135 info outdated        missingDeps: {},
+135 info outdated        missingDevDeps: {},
+135 info outdated        userRequired: false,
+135 info outdated        existing: false },
+135 info outdated     depname: 'global-queue',
+135 info outdated     current: '1.0.0',
+135 info outdated     wanted: 'git',
+135 info outdated     latest: 'git',
+135 info outdated     req: 'git+https://github.com/artificial-life/global-queue.git',
+135 info outdated     what: 'global-queue@git' },
+135 info outdated   { dep:
+135 info outdated      Node {
+135 info outdated        id: 371,
+135 info outdated        package: [Object],
+135 info outdated        path: 'C:\\Users\\user\\Documents\\GitHub\\iris-service-history\\node_modules\\resource-management-framework',
+135 info outdated        realpath: 'C:\\Users\\user\\Documents\\GitHub\\iris-service-history\\node_modules\\resource-management-framework',
+135 info outdated        parent: [Object],
+135 info outdated        isLink: false,
+135 info outdated        children: [Object],
+135 info outdated        error: null,
+135 info outdated        loaded: false,
+135 info outdated        requiredBy: [Object],
+135 info outdated        requires: [Object],
+135 info outdated        missingDeps: {},
+135 info outdated        missingDevDeps: {},
+135 info outdated        userRequired: false,
+135 info outdated        existing: false },
+135 info outdated     depname: 'resource-management-framework',
+135 info outdated     current: '1.0.0',
+135 info outdated     wanted: 'git',
+135 info outdated     latest: 'git',
+135 info outdated     req: 'git+https://github.com/YuuKohaku/rmf-on-rdf.git',
+135 info outdated     what: 'resource-management-framework@git' } ]
+136 silly loadCurrentTree Starting
+137 silly install loadCurrentTree
+138 silly install readLocalPackageData
+139 silly fetchPackageMetaData bluebird@3.3.5
+140 silly fetchPackageMetaData lodash@4.10.0
+141 silly fetchPackageMetaData git+https://github.com/artificial-life/global-queue.git
+142 silly fetchPackageMetaData git+https://github.com/YuuKohaku/rmf-on-rdf.git
+143 silly fetchNamedPackageData bluebird
+144 silly mapToRegistry name bluebird
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+148 silly fetchNamedPackageData lodash
+149 silly mapToRegistry name lodash
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/lodash
+153 silly fetchOtherPackageData git+https://github.com/artificial-life/global-queue.git
+154 silly cache add args [ 'git+https://github.com/artificial-life/global-queue.git',
+154 silly cache add   null ]
+155 verbose cache add spec git+https://github.com/artificial-life/global-queue.git
+156 silly fetchOtherPackageData git+https://github.com/YuuKohaku/rmf-on-rdf.git
+157 silly cache add args [ 'git+https://github.com/YuuKohaku/rmf-on-rdf.git', null ]
+158 verbose cache add spec git+https://github.com/YuuKohaku/rmf-on-rdf.git
+159 silly cache add parsed spec Result {
+159 silly cache add   raw: 'git+https://github.com/artificial-life/global-queue.git',
+159 silly cache add   scope: null,
+159 silly cache add   name: null,
+159 silly cache add   rawSpec: 'git+https://github.com/artificial-life/global-queue.git',
+159 silly cache add   spec: 'git+https://github.com/artificial-life/global-queue.git',
+159 silly cache add   type: 'hosted',
+159 silly cache add   hosted:
+159 silly cache add    { type: 'github',
+159 silly cache add      ssh: 'git@github.com:artificial-life/global-queue.git',
+159 silly cache add      sshUrl: 'git+ssh://git@github.com/artificial-life/global-queue.git',
+159 silly cache add      httpsUrl: 'git+https://github.com/artificial-life/global-queue.git',
+159 silly cache add      gitUrl: 'git://github.com/artificial-life/global-queue.git',
+159 silly cache add      shortcut: 'github:artificial-life/global-queue',
+159 silly cache add      directUrl: 'https://raw.githubusercontent.com/artificial-life/global-queue/master/package.json' } }
+160 verbose addRemoteGit caching git+https://github.com/artificial-life/global-queue.git
+161 verbose addRemoteGit git+https://github.com/artificial-life/global-queue.git is a repository hosted by github
+162 silly tryClone cloning git+https://github.com/artificial-life/global-queue.git via git+https://github.com/artificial-life/global-queue.git
+163 verbose tryClone git-https-github-com-artificial-life-global-queue-git-70226d59 not in flight; caching
+164 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+165 silly cache add parsed spec Result {
+165 silly cache add   raw: 'git+https://github.com/YuuKohaku/rmf-on-rdf.git',
+165 silly cache add   scope: null,
+165 silly cache add   name: null,
+165 silly cache add   rawSpec: 'git+https://github.com/YuuKohaku/rmf-on-rdf.git',
+165 silly cache add   spec: 'git+https://github.com/YuuKohaku/rmf-on-rdf.git',
+165 silly cache add   type: 'hosted',
+165 silly cache add   hosted:
+165 silly cache add    { type: 'github',
+165 silly cache add      ssh: 'git@github.com:YuuKohaku/rmf-on-rdf.git',
+165 silly cache add      sshUrl: 'git+ssh://git@github.com/YuuKohaku/rmf-on-rdf.git',
+165 silly cache add      httpsUrl: 'git+https://github.com/YuuKohaku/rmf-on-rdf.git',
+165 silly cache add      gitUrl: 'git://github.com/YuuKohaku/rmf-on-rdf.git',
+165 silly cache add      shortcut: 'github:YuuKohaku/rmf-on-rdf',
+165 silly cache add      directUrl: 'https://raw.githubusercontent.com/YuuKohaku/rmf-on-rdf/master/package.json' } }
+166 verbose addRemoteGit caching git+https://github.com/YuuKohaku/rmf-on-rdf.git
+167 verbose addRemoteGit git+https://github.com/YuuKohaku/rmf-on-rdf.git is a repository hosted by github
+168 silly tryClone cloning git+https://github.com/YuuKohaku/rmf-on-rdf.git via git+https://github.com/YuuKohaku/rmf-on-rdf.git
+169 verbose tryClone git-https-github-com-YuuKohaku-rmf-on-rdf-git-e6c691fb not in flight; caching
+170 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache\_git-remotes correctMkdir already in flight; waiting
+171 verbose request uri https://registry.npmjs.org/lodash
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 11:21:28
+174 verbose etag "70DNISJXKPM6NZU1KYAVW05V"
+175 http request GET https://registry.npmjs.org/lodash
+176 verbose request uri https://registry.npmjs.org/bluebird
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 11:21:28
+179 verbose etag "EC30JJYINRLQ0ZDP6UOC3MQDC"
+180 http request GET https://registry.npmjs.org/bluebird
+181 http 304 https://registry.npmjs.org/lodash
+182 verbose headers { date: 'Wed, 13 Apr 2016 05:22:49 GMT',
+182 verbose headers   via: '1.1 varnish',
+182 verbose headers   'cache-control': 'max-age=300',
+182 verbose headers   etag: '"70DNISJXKPM6NZU1KYAVW05V"',
+182 verbose headers   age: '295',
+182 verbose headers   connection: 'keep-alive',
+182 verbose headers   'x-served-by': 'cache-fra1247-FRA',
+182 verbose headers   'x-cache': 'HIT',
+182 verbose headers   'x-cache-hits': '13',
+182 verbose headers   'x-timer': 'S1460524969.059543,VS0,VE0',
+182 verbose headers   vary: 'Accept-Encoding' }
+183 silly get cb [ 304,
+183 silly get   { date: 'Wed, 13 Apr 2016 05:22:49 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     'cache-control': 'max-age=300',
+183 silly get     etag: '"70DNISJXKPM6NZU1KYAVW05V"',
+183 silly get     age: '295',
+183 silly get     connection: 'keep-alive',
+183 silly get     'x-served-by': 'cache-fra1247-FRA',
+183 silly get     'x-cache': 'HIT',
+183 silly get     'x-cache-hits': '13',
+183 silly get     'x-timer': 'S1460524969.059543,VS0,VE0',
+183 silly get     vary: 'Accept-Encoding' } ]
+184 verbose etag https://registry.npmjs.org/lodash from cache
+185 verbose get saving lodash to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+186 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+187 info git [ 'config', '--get', 'remote.origin.url' ]
+188 info git [ 'config', '--get', 'remote.origin.url' ]
+189 http 304 https://registry.npmjs.org/bluebird
+190 verbose headers { date: 'Wed, 13 Apr 2016 05:22:49 GMT',
+190 verbose headers   via: '1.1 varnish',
+190 verbose headers   'cache-control': 'max-age=300',
+190 verbose headers   etag: '"EC30JJYINRLQ0ZDP6UOC3MQDC"',
+190 verbose headers   age: '147',
+190 verbose headers   connection: 'keep-alive',
+190 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+190 verbose headers   'x-cache': 'HIT',
+190 verbose headers   'x-cache-hits': '7',
+190 verbose headers   'x-timer': 'S1460524969.321942,VS0,VE0',
+190 verbose headers   vary: 'Accept-Encoding' }
+191 silly get cb [ 304,
+191 silly get   { date: 'Wed, 13 Apr 2016 05:22:49 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     etag: '"EC30JJYINRLQ0ZDP6UOC3MQDC"',
+191 silly get     age: '147',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-fra1225-FRA',
+191 silly get     'x-cache': 'HIT',
+191 silly get     'x-cache-hits': '7',
+191 silly get     'x-timer': 'S1460524969.321942,VS0,VE0',
+191 silly get     vary: 'Accept-Encoding' } ]
+192 verbose etag https://registry.npmjs.org/bluebird from cache
+193 verbose get saving bluebird to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\bluebird\.cache.json
+194 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+195 silly validateExistingRemote git+https://github.com/artificial-life/global-queue.git remote.origin.url: https://github.com/artificial-life/global-queue.git
+196 verbose validateExistingRemote git+https://github.com/artificial-life/global-queue.git is updating existing cached remote C:\Users\user\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-artificial-life-global-queue-git-70226d59
+197 silly validateExistingRemote git+https://github.com/YuuKohaku/rmf-on-rdf.git remote.origin.url: https://github.com/YuuKohaku/rmf-on-rdf.git
+198 verbose validateExistingRemote git+https://github.com/YuuKohaku/rmf-on-rdf.git is updating existing cached remote C:\Users\user\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-YuuKohaku-rmf-on-rdf-git-e6c691fb
+199 info git [ 'fetch', '-a', 'origin' ]
+200 info git [ 'fetch', '-a', 'origin' ]
+201 verbose updateRemote git fetch -a origin (https://github.com/artificial-life/global-queue.git)
+202 verbose setPermissions git+https://github.com/artificial-life/global-queue.git skipping chownr on Windows
+203 verbose resolveHead git+https://github.com/artificial-life/global-queue.git original treeish: master
+204 info git [ 'rev-list', '-n1', 'master' ]
+205 verbose updateRemote git fetch -a origin (https://github.com/YuuKohaku/rmf-on-rdf.git)
+206 verbose setPermissions git+https://github.com/YuuKohaku/rmf-on-rdf.git skipping chownr on Windows
+207 verbose resolveHead git+https://github.com/YuuKohaku/rmf-on-rdf.git original treeish: master
+208 info git [ 'rev-list', '-n1', 'master' ]
+209 silly resolveHead git+https://github.com/artificial-life/global-queue.git resolved treeish: a80c029713c43c607a5be19953ec1fb417162fed
+210 verbose resolveHead git+https://github.com/artificial-life/global-queue.git resolved Git URL: git+https://github.com/artificial-life/global-queue.git#a80c029713c43c607a5be19953ec1fb417162fed
+211 silly resolveHead Git working directory: C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-3020a09a\a80c029713c43c607a5be19953ec1fb417162fed
+212 info git [ 'clone',
+212 info git   'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-artificial-life-global-queue-git-70226d59',
+212 info git   'C:\\Users\\user\\AppData\\Local\\Temp\\npm-4232-402a5ca8\\git-cache-3020a09a\\a80c029713c43c607a5be19953ec1fb417162fed' ]
+213 silly resolveHead git+https://github.com/YuuKohaku/rmf-on-rdf.git resolved treeish: 1ac28ea94af22c8aa6aec74c050d2d40a91943bd
+214 verbose resolveHead git+https://github.com/YuuKohaku/rmf-on-rdf.git resolved Git URL: git+https://github.com/YuuKohaku/rmf-on-rdf.git#1ac28ea94af22c8aa6aec74c050d2d40a91943bd
+215 silly resolveHead Git working directory: C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-3e23fdbd\1ac28ea94af22c8aa6aec74c050d2d40a91943bd
+216 info git [ 'clone',
+216 info git   'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-YuuKohaku-rmf-on-rdf-git-e6c691fb',
+216 info git   'C:\\Users\\user\\AppData\\Local\\Temp\\npm-4232-402a5ca8\\git-cache-3e23fdbd\\1ac28ea94af22c8aa6aec74c050d2d40a91943bd' ]
+217 verbose cloneResolved git+https://github.com/artificial-life/global-queue.git clone Cloning into 'C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-3020a09a\a80c029713c43c607a5be19953ec1fb417162fed'...
+217 verbose cloneResolved done.
+218 info git [ 'checkout', 'a80c029713c43c607a5be19953ec1fb417162fed' ]
+219 verbose checkoutTreeish git+https://github.com/artificial-life/global-queue.git checkout Note: checking out 'a80c029713c43c607a5be19953ec1fb417162fed'.
+219 verbose checkoutTreeish
+219 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+219 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+219 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+219 verbose checkoutTreeish
+219 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+219 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+219 verbose checkoutTreeish
+219 verbose checkoutTreeish   git checkout -b <new-branch-name>
+219 verbose checkoutTreeish
+219 verbose checkoutTreeish HEAD is now at a80c029... Merge pull request #3 from YuuKohaku/master
+220 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+221 verbose cloneResolved git+https://github.com/YuuKohaku/rmf-on-rdf.git clone Cloning into 'C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-3e23fdbd\1ac28ea94af22c8aa6aec74c050d2d40a91943bd'...
+221 verbose cloneResolved done.
+222 info git [ 'checkout', '1ac28ea94af22c8aa6aec74c050d2d40a91943bd' ]
+223 verbose updateSubmodules git+https://github.com/artificial-life/global-queue.git submodule update
+224 verbose addLocalDirectory C:\Users\user\AppData\Roaming\npm-cache\global-queue\1.0.0\package.tgz not in flight; packing
+225 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+226 verbose tar pack [ 'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\global-queue\\1.0.0\\package.tgz',
+226 verbose tar pack   'C:\\Users\\user\\AppData\\Local\\Temp\\npm-4232-402a5ca8\\git-cache-3020a09a\\a80c029713c43c607a5be19953ec1fb417162fed' ]
+227 verbose tarball C:\Users\user\AppData\Roaming\npm-cache\global-queue\1.0.0\package.tgz
+228 verbose folder C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-3020a09a\a80c029713c43c607a5be19953ec1fb417162fed
+229 verbose checkoutTreeish git+https://github.com/YuuKohaku/rmf-on-rdf.git checkout Note: checking out '1ac28ea94af22c8aa6aec74c050d2d40a91943bd'.
+229 verbose checkoutTreeish
+229 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+229 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+229 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+229 verbose checkoutTreeish
+229 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+229 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+229 verbose checkoutTreeish
+229 verbose checkoutTreeish   git checkout -b <new-branch-name>
+229 verbose checkoutTreeish
+229 verbose checkoutTreeish HEAD is now at 1ac28ea... 1
+230 verbose addLocalTarball adding from inside cache C:\Users\user\AppData\Roaming\npm-cache\global-queue\1.0.0\package.tgz
+231 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+232 verbose addRemoteGit data._from: git+https://github.com/artificial-life/global-queue.git
+233 verbose addRemoteGit data._resolved: git+https://github.com/artificial-life/global-queue.git#a80c029713c43c607a5be19953ec1fb417162fed
+234 silly cache afterAdd global-queue@1.0.0
+235 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\global-queue\1.0.0\package\package.json not in flight; writing
+236 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+237 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\global-queue\1.0.0\package\package.json written
+238 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+239 verbose updateSubmodules git+https://github.com/YuuKohaku/rmf-on-rdf.git submodule update
+240 verbose addLocalDirectory C:\Users\user\AppData\Roaming\npm-cache\resource-management-framework\1.0.0\package.tgz not in flight; packing
+241 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+242 verbose tar pack [ 'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\resource-management-framework\\1.0.0\\package.tgz',
+242 verbose tar pack   'C:\\Users\\user\\AppData\\Local\\Temp\\npm-4232-402a5ca8\\git-cache-3e23fdbd\\1ac28ea94af22c8aa6aec74c050d2d40a91943bd' ]
+243 verbose tarball C:\Users\user\AppData\Roaming\npm-cache\resource-management-framework\1.0.0\package.tgz
+244 verbose folder C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-3e23fdbd\1ac28ea94af22c8aa6aec74c050d2d40a91943bd
+245 verbose addLocalTarball adding from inside cache C:\Users\user\AppData\Roaming\npm-cache\resource-management-framework\1.0.0\package.tgz
+246 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+247 verbose addRemoteGit data._from: git+https://github.com/YuuKohaku/rmf-on-rdf.git
+248 verbose addRemoteGit data._resolved: git+https://github.com/YuuKohaku/rmf-on-rdf.git#1ac28ea94af22c8aa6aec74c050d2d40a91943bd
+249 silly cache afterAdd resource-management-framework@1.0.0
+250 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\resource-management-framework\1.0.0\package\package.json not in flight; writing
+251 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+252 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\resource-management-framework\1.0.0\package\package.json written
+253 silly install normalizeTree
+254 silly loadCurrentTree Finishing
+255 silly loadIdealTree Starting
+256 silly install loadIdealTree
+257 silly cloneCurrentTree Starting
+258 silly install cloneCurrentTreeToIdealTree
+259 silly cloneCurrentTree Finishing
+260 silly loadShrinkwrap Starting
+261 silly install loadShrinkwrap
+262 silly loadShrinkwrap Finishing
+263 silly loadAllDepsIntoIdealTree Starting
+264 silly install loadAllDepsIntoIdealTree
+265 silly resolveWithNewModule lodash@4.10.0 checking installable status
+266 silly cache add args [ 'lodash@4.10.0', null ]
+267 verbose cache add spec lodash@4.10.0
+268 silly resolveWithNewModule bluebird@3.3.5 checking installable status
+269 silly cache add args [ 'bluebird@3.3.5', null ]
+270 verbose cache add spec bluebird@3.3.5
+271 silly resolveWithNewModule global-queue@1.0.0 checking installable status
+272 silly resolveWithNewModule resource-management-framework@1.0.0 checking installable status
+273 silly cache add parsed spec Result {
+273 silly cache add   raw: 'lodash@4.10.0',
+273 silly cache add   scope: null,
+273 silly cache add   name: 'lodash',
+273 silly cache add   rawSpec: '4.10.0',
+273 silly cache add   spec: '4.10.0',
+273 silly cache add   type: 'version' }
+274 silly addNamed lodash@4.10.0
+275 verbose addNamed "4.10.0" is a plain semver version for lodash
+276 silly mapToRegistry name lodash
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry uri https://registry.npmjs.org/lodash
+280 verbose addNameVersion registry:https://registry.npmjs.org/lodash not in flight; fetching
+281 silly cache add parsed spec Result {
+281 silly cache add   raw: 'bluebird@3.3.5',
+281 silly cache add   scope: null,
+281 silly cache add   name: 'bluebird',
+281 silly cache add   rawSpec: '3.3.5',
+281 silly cache add   spec: '3.3.5',
+281 silly cache add   type: 'version' }
+282 silly addNamed bluebird@3.3.5
+283 verbose addNamed "3.3.5" is a plain semver version for bluebird
+284 silly mapToRegistry name bluebird
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+288 verbose addNameVersion registry:https://registry.npmjs.org/bluebird not in flight; fetching
+289 verbose request uri https://registry.npmjs.org/lodash
+290 verbose request no auth needed
+291 info attempt registry request try #1 at 11:21:46
+292 verbose etag "70DNISJXKPM6NZU1KYAVW05V"
+293 http request GET https://registry.npmjs.org/lodash
+294 verbose request uri https://registry.npmjs.org/bluebird
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 11:21:46
+297 verbose etag "EC30JJYINRLQ0ZDP6UOC3MQDC"
+298 http request GET https://registry.npmjs.org/bluebird
+299 http 304 https://registry.npmjs.org/lodash
+300 verbose headers { date: 'Wed, 13 Apr 2016 05:23:07 GMT',
+300 verbose headers   via: '1.1 varnish',
+300 verbose headers   'cache-control': 'max-age=300',
+300 verbose headers   etag: '"70DNISJXKPM6NZU1KYAVW05V"',
+300 verbose headers   age: '13',
+300 verbose headers   connection: 'keep-alive',
+300 verbose headers   'x-served-by': 'cache-fra1247-FRA',
+300 verbose headers   'x-cache': 'HIT',
+300 verbose headers   'x-cache-hits': '3',
+300 verbose headers   'x-timer': 'S1460524987.185406,VS0,VE0',
+300 verbose headers   vary: 'Accept-Encoding' }
+301 silly get cb [ 304,
+301 silly get   { date: 'Wed, 13 Apr 2016 05:23:07 GMT',
+301 silly get     via: '1.1 varnish',
+301 silly get     'cache-control': 'max-age=300',
+301 silly get     etag: '"70DNISJXKPM6NZU1KYAVW05V"',
+301 silly get     age: '13',
+301 silly get     connection: 'keep-alive',
+301 silly get     'x-served-by': 'cache-fra1247-FRA',
+301 silly get     'x-cache': 'HIT',
+301 silly get     'x-cache-hits': '3',
+301 silly get     'x-timer': 'S1460524987.185406,VS0,VE0',
+301 silly get     vary: 'Accept-Encoding' } ]
+302 verbose etag https://registry.npmjs.org/lodash from cache
+303 verbose get saving lodash to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+304 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+305 http 304 https://registry.npmjs.org/bluebird
+306 verbose headers { date: 'Wed, 13 Apr 2016 05:23:07 GMT',
+306 verbose headers   via: '1.1 varnish',
+306 verbose headers   'cache-control': 'max-age=300',
+306 verbose headers   etag: '"EC30JJYINRLQ0ZDP6UOC3MQDC"',
+306 verbose headers   age: '165',
+306 verbose headers   connection: 'keep-alive',
+306 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+306 verbose headers   'x-cache': 'HIT',
+306 verbose headers   'x-cache-hits': '8',
+306 verbose headers   'x-timer': 'S1460524987.184941,VS0,VE0',
+306 verbose headers   vary: 'Accept-Encoding' }
+307 silly get cb [ 304,
+307 silly get   { date: 'Wed, 13 Apr 2016 05:23:07 GMT',
+307 silly get     via: '1.1 varnish',
+307 silly get     'cache-control': 'max-age=300',
+307 silly get     etag: '"EC30JJYINRLQ0ZDP6UOC3MQDC"',
+307 silly get     age: '165',
+307 silly get     connection: 'keep-alive',
+307 silly get     'x-served-by': 'cache-fra1225-FRA',
+307 silly get     'x-cache': 'HIT',
+307 silly get     'x-cache-hits': '8',
+307 silly get     'x-timer': 'S1460524987.184941,VS0,VE0',
+307 silly get     vary: 'Accept-Encoding' } ]
+308 verbose etag https://registry.npmjs.org/bluebird from cache
+309 verbose get saving bluebird to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\bluebird\.cache.json
+310 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+311 silly cache afterAdd lodash@4.10.0
+312 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\lodash\4.10.0\package\package.json not in flight; writing
+313 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+314 silly cache afterAdd bluebird@3.3.5
+315 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\bluebird\3.3.5\package\package.json not in flight; writing
+316 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+317 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\lodash\4.10.0\package\package.json written
+318 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\bluebird\3.3.5\package\package.json written
+319 silly fetchNamedPackageData node-uuid
+320 silly mapToRegistry name node-uuid
+321 silly mapToRegistry using default registry
+322 silly mapToRegistry registry https://registry.npmjs.org/
+323 silly mapToRegistry uri https://registry.npmjs.org/node-uuid
+324 verbose request uri https://registry.npmjs.org/node-uuid
+325 verbose request no auth needed
+326 info attempt registry request try #1 at 11:21:47
+327 verbose etag "6SOASYOU1ADYN5QPUE7ZCKI48"
+328 http request GET https://registry.npmjs.org/node-uuid
+329 http 304 https://registry.npmjs.org/node-uuid
+330 verbose headers { date: 'Wed, 13 Apr 2016 05:23:08 GMT',
+330 verbose headers   via: '1.1 varnish',
+330 verbose headers   'cache-control': 'max-age=300',
+330 verbose headers   etag: '"6SOASYOU1ADYN5QPUE7ZCKI48"',
+330 verbose headers   age: '31',
+330 verbose headers   connection: 'keep-alive',
+330 verbose headers   'x-served-by': 'cache-fra1247-FRA',
+330 verbose headers   'x-cache': 'HIT',
+330 verbose headers   'x-cache-hits': '2',
+330 verbose headers   'x-timer': 'S1460524988.101983,VS0,VE0',
+330 verbose headers   vary: 'Accept-Encoding' }
+331 silly get cb [ 304,
+331 silly get   { date: 'Wed, 13 Apr 2016 05:23:08 GMT',
+331 silly get     via: '1.1 varnish',
+331 silly get     'cache-control': 'max-age=300',
+331 silly get     etag: '"6SOASYOU1ADYN5QPUE7ZCKI48"',
+331 silly get     age: '31',
+331 silly get     connection: 'keep-alive',
+331 silly get     'x-served-by': 'cache-fra1247-FRA',
+331 silly get     'x-cache': 'HIT',
+331 silly get     'x-cache-hits': '2',
+331 silly get     'x-timer': 'S1460524988.101983,VS0,VE0',
+331 silly get     vary: 'Accept-Encoding' } ]
+332 verbose etag https://registry.npmjs.org/node-uuid from cache
+333 verbose get saving node-uuid to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\node-uuid\.cache.json
+334 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+335 silly resolveWithNewModule node-uuid@1.4.7 checking installable status
+336 silly cache add args [ 'node-uuid@^1.4.7', null ]
+337 verbose cache add spec node-uuid@^1.4.7
+338 silly cache add parsed spec Result {
+338 silly cache add   raw: 'node-uuid@^1.4.7',
+338 silly cache add   scope: null,
+338 silly cache add   name: 'node-uuid',
+338 silly cache add   rawSpec: '^1.4.7',
+338 silly cache add   spec: '>=1.4.7 <2.0.0',
+338 silly cache add   type: 'range' }
+339 silly addNamed node-uuid@>=1.4.7 <2.0.0
+340 verbose addNamed ">=1.4.7 <2.0.0" is a valid semver range for node-uuid
+341 silly addNameRange { name: 'node-uuid', range: '>=1.4.7 <2.0.0', hasData: false }
+342 silly mapToRegistry name node-uuid
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry uri https://registry.npmjs.org/node-uuid
+346 verbose addNameRange registry:https://registry.npmjs.org/node-uuid not in flight; fetching
+347 verbose get https://registry.npmjs.org/node-uuid not expired, no request
+348 silly addNameRange number 2 { name: 'node-uuid', range: '>=1.4.7 <2.0.0', hasData: true }
+349 silly addNameRange versions [ 'node-uuid',
+349 silly addNameRange   [ '1.2.0',
+349 silly addNameRange     '1.3.0',
+349 silly addNameRange     '1.3.1',
+349 silly addNameRange     '1.3.2',
+349 silly addNameRange     '1.1.0',
+349 silly addNameRange     '1.0.0',
+349 silly addNameRange     '1.3.3',
+349 silly addNameRange     '1.4.0',
+349 silly addNameRange     '1.4.1',
+349 silly addNameRange     '1.4.2',
+349 silly addNameRange     '1.4.3',
+349 silly addNameRange     '1.4.6',
+349 silly addNameRange     '1.4.7' ] ]
+350 silly addNamed node-uuid@1.4.7
+351 verbose addNamed "1.4.7" is a plain semver version for node-uuid
+352 silly cache afterAdd node-uuid@1.4.7
+353 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\node-uuid\1.4.7\package\package.json not in flight; writing
+354 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+355 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\node-uuid\1.4.7\package\package.json written
+356 silly fetchNamedPackageData brace-expansion
+357 silly mapToRegistry name brace-expansion
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+361 verbose get https://registry.npmjs.org/brace-expansion not expired, no request
+362 silly resolveWithNewModule brace-expansion@1.1.3 checking installable status
+363 silly cache add args [ 'brace-expansion@^1.0.0', null ]
+364 verbose cache add spec brace-expansion@^1.0.0
+365 silly cache add parsed spec Result {
+365 silly cache add   raw: 'brace-expansion@^1.0.0',
+365 silly cache add   scope: null,
+365 silly cache add   name: 'brace-expansion',
+365 silly cache add   rawSpec: '^1.0.0',
+365 silly cache add   spec: '>=1.0.0 <2.0.0',
+365 silly cache add   type: 'range' }
+366 silly addNamed brace-expansion@>=1.0.0 <2.0.0
+367 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for brace-expansion
+368 silly addNameRange { name: 'brace-expansion',
+368 silly addNameRange   range: '>=1.0.0 <2.0.0',
+368 silly addNameRange   hasData: false }
+369 silly mapToRegistry name brace-expansion
+370 silly mapToRegistry using default registry
+371 silly mapToRegistry registry https://registry.npmjs.org/
+372 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+373 verbose addNameRange registry:https://registry.npmjs.org/brace-expansion not in flight; fetching
+374 verbose get https://registry.npmjs.org/brace-expansion not expired, no request
+375 silly addNameRange number 2 { name: 'brace-expansion',
+375 silly addNameRange   range: '>=1.0.0 <2.0.0',
+375 silly addNameRange   hasData: true }
+376 silly addNameRange versions [ 'brace-expansion',
+376 silly addNameRange   [ '0.0.0', '1.0.0', '1.0.1', '1.1.0', '1.1.1', '1.1.2', '1.1.3' ] ]
+377 silly addNamed brace-expansion@1.1.3
+378 verbose addNamed "1.1.3" is a plain semver version for brace-expansion
+379 silly cache afterAdd brace-expansion@1.1.3
+380 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\brace-expansion\1.1.3\package\package.json not in flight; writing
+381 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+382 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\brace-expansion\1.1.3\package\package.json written
+383 silly fetchNamedPackageData balanced-match
+384 silly mapToRegistry name balanced-match
+385 silly mapToRegistry using default registry
+386 silly mapToRegistry registry https://registry.npmjs.org/
+387 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+388 silly fetchNamedPackageData concat-map
+389 silly mapToRegistry name concat-map
+390 silly mapToRegistry using default registry
+391 silly mapToRegistry registry https://registry.npmjs.org/
+392 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+393 verbose request uri https://registry.npmjs.org/balanced-match
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 11:21:49
+396 verbose etag "2UCIXDVPHPVG0UBO9EWI4V9XC"
+397 http request GET https://registry.npmjs.org/balanced-match
+398 verbose request uri https://registry.npmjs.org/concat-map
+399 verbose request no auth needed
+400 info attempt registry request try #1 at 11:21:49
+401 verbose etag "66LI2B4AH1989LYDFSL4P944A"
+402 http request GET https://registry.npmjs.org/concat-map
+403 http 304 https://registry.npmjs.org/balanced-match
+404 verbose headers { date: 'Wed, 13 Apr 2016 05:23:09 GMT',
+404 verbose headers   via: '1.1 varnish',
+404 verbose headers   'cache-control': 'max-age=300',
+404 verbose headers   etag: '"2UCIXDVPHPVG0UBO9EWI4V9XC"',
+404 verbose headers   age: '48',
+404 verbose headers   connection: 'keep-alive',
+404 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+404 verbose headers   'x-cache': 'HIT',
+404 verbose headers   'x-cache-hits': '3',
+404 verbose headers   'x-timer': 'S1460524989.651228,VS0,VE0',
+404 verbose headers   vary: 'Accept-Encoding' }
+405 silly get cb [ 304,
+405 silly get   { date: 'Wed, 13 Apr 2016 05:23:09 GMT',
+405 silly get     via: '1.1 varnish',
+405 silly get     'cache-control': 'max-age=300',
+405 silly get     etag: '"2UCIXDVPHPVG0UBO9EWI4V9XC"',
+405 silly get     age: '48',
+405 silly get     connection: 'keep-alive',
+405 silly get     'x-served-by': 'cache-fra1225-FRA',
+405 silly get     'x-cache': 'HIT',
+405 silly get     'x-cache-hits': '3',
+405 silly get     'x-timer': 'S1460524989.651228,VS0,VE0',
+405 silly get     vary: 'Accept-Encoding' } ]
+406 verbose etag https://registry.npmjs.org/balanced-match from cache
+407 verbose get saving balanced-match to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\balanced-match\.cache.json
+408 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+409 http 304 https://registry.npmjs.org/concat-map
+410 verbose headers { date: 'Wed, 13 Apr 2016 05:23:09 GMT',
+410 verbose headers   via: '1.1 varnish',
+410 verbose headers   'cache-control': 'max-age=300',
+410 verbose headers   etag: '"66LI2B4AH1989LYDFSL4P944A"',
+410 verbose headers   age: '295',
+410 verbose headers   connection: 'keep-alive',
+410 verbose headers   'x-served-by': 'cache-fra1247-FRA',
+410 verbose headers   'x-cache': 'HIT',
+410 verbose headers   'x-cache-hits': '13',
+410 verbose headers   'x-timer': 'S1460524989.652055,VS0,VE0',
+410 verbose headers   vary: 'Accept-Encoding' }
+411 silly get cb [ 304,
+411 silly get   { date: 'Wed, 13 Apr 2016 05:23:09 GMT',
+411 silly get     via: '1.1 varnish',
+411 silly get     'cache-control': 'max-age=300',
+411 silly get     etag: '"66LI2B4AH1989LYDFSL4P944A"',
+411 silly get     age: '295',
+411 silly get     connection: 'keep-alive',
+411 silly get     'x-served-by': 'cache-fra1247-FRA',
+411 silly get     'x-cache': 'HIT',
+411 silly get     'x-cache-hits': '13',
+411 silly get     'x-timer': 'S1460524989.652055,VS0,VE0',
+411 silly get     vary: 'Accept-Encoding' } ]
+412 verbose etag https://registry.npmjs.org/concat-map from cache
+413 verbose get saving concat-map to C:\Users\user\AppData\Roaming\npm-cache\registry.npmjs.org\concat-map\.cache.json
+414 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+415 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+416 silly cache add args [ 'concat-map@0.0.1', null ]
+417 verbose cache add spec concat-map@0.0.1
+418 silly cache add parsed spec Result {
+418 silly cache add   raw: 'concat-map@0.0.1',
+418 silly cache add   scope: null,
+418 silly cache add   name: 'concat-map',
+418 silly cache add   rawSpec: '0.0.1',
+418 silly cache add   spec: '0.0.1',
+418 silly cache add   type: 'version' }
+419 silly addNamed concat-map@0.0.1
+420 verbose addNamed "0.0.1" is a plain semver version for concat-map
+421 silly mapToRegistry name concat-map
+422 silly mapToRegistry using default registry
+423 silly mapToRegistry registry https://registry.npmjs.org/
+424 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+425 verbose addNameVersion registry:https://registry.npmjs.org/concat-map not in flight; fetching
+426 silly resolveWithNewModule balanced-match@0.3.0 checking installable status
+427 silly cache add args [ 'balanced-match@^0.3.0', null ]
+428 verbose cache add spec balanced-match@^0.3.0
+429 silly cache add parsed spec Result {
+429 silly cache add   raw: 'balanced-match@^0.3.0',
+429 silly cache add   scope: null,
+429 silly cache add   name: 'balanced-match',
+429 silly cache add   rawSpec: '^0.3.0',
+429 silly cache add   spec: '>=0.3.0 <0.4.0',
+429 silly cache add   type: 'range' }
+430 silly addNamed balanced-match@>=0.3.0 <0.4.0
+431 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for balanced-match
+432 silly addNameRange { name: 'balanced-match',
+432 silly addNameRange   range: '>=0.3.0 <0.4.0',
+432 silly addNameRange   hasData: false }
+433 silly mapToRegistry name balanced-match
+434 silly mapToRegistry using default registry
+435 silly mapToRegistry registry https://registry.npmjs.org/
+436 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+437 verbose addNameRange registry:https://registry.npmjs.org/balanced-match not in flight; fetching
+438 verbose get https://registry.npmjs.org/concat-map not expired, no request
+439 verbose get https://registry.npmjs.org/balanced-match not expired, no request
+440 silly addNameRange number 2 { name: 'balanced-match',
+440 silly addNameRange   range: '>=0.3.0 <0.4.0',
+440 silly addNameRange   hasData: true }
+441 silly addNameRange versions [ 'balanced-match',
+441 silly addNameRange   [ '0.0.0', '0.0.1', '0.1.0', '0.2.0', '0.2.1', '0.3.0', '0.4.0' ] ]
+442 silly addNamed balanced-match@0.3.0
+443 verbose addNamed "0.3.0" is a plain semver version for balanced-match
+444 silly cache afterAdd concat-map@0.0.1
+445 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\concat-map\0.0.1\package\package.json not in flight; writing
+446 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+447 silly cache afterAdd balanced-match@0.3.0
+448 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\balanced-match\0.3.0\package\package.json not in flight; writing
+449 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+450 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\concat-map\0.0.1\package\package.json written
+451 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\balanced-match\0.3.0\package\package.json written
+452 silly fetchNamedPackageData harmony-reflect
+453 silly mapToRegistry name harmony-reflect
+454 silly mapToRegistry using default registry
+455 silly mapToRegistry registry https://registry.npmjs.org/
+456 silly mapToRegistry uri https://registry.npmjs.org/harmony-reflect
+457 silly fetchOtherPackageData cbird-rdf@git+https://github.com/YuuKohaku/cbird-rdf.git
+458 silly cache add args [ 'cbird-rdf@git+https://github.com/YuuKohaku/cbird-rdf.git',
+458 silly cache add   null ]
+459 verbose cache add spec cbird-rdf@git+https://github.com/YuuKohaku/cbird-rdf.git
+460 silly cache add parsed spec Result {
+460 silly cache add   raw: 'cbird-rdf@git+https://github.com/YuuKohaku/cbird-rdf.git',
+460 silly cache add   scope: null,
+460 silly cache add   name: 'cbird-rdf',
+460 silly cache add   rawSpec: 'git+https://github.com/YuuKohaku/cbird-rdf.git',
+460 silly cache add   spec: 'git+https://github.com/YuuKohaku/cbird-rdf.git',
+460 silly cache add   type: 'hosted',
+460 silly cache add   hosted:
+460 silly cache add    { type: 'github',
+460 silly cache add      ssh: 'git@github.com:YuuKohaku/cbird-rdf.git',
+460 silly cache add      sshUrl: 'git+ssh://git@github.com/YuuKohaku/cbird-rdf.git',
+460 silly cache add      httpsUrl: 'git+https://github.com/YuuKohaku/cbird-rdf.git',
+460 silly cache add      gitUrl: 'git://github.com/YuuKohaku/cbird-rdf.git',
+460 silly cache add      shortcut: 'github:YuuKohaku/cbird-rdf',
+460 silly cache add      directUrl: 'https://raw.githubusercontent.com/YuuKohaku/cbird-rdf/master/package.json' } }
+461 verbose addRemoteGit caching git+https://github.com/YuuKohaku/cbird-rdf.git
+462 verbose addRemoteGit git+https://github.com/YuuKohaku/cbird-rdf.git is a repository hosted by github
+463 silly tryClone cloning git+https://github.com/YuuKohaku/cbird-rdf.git via git+https://github.com/YuuKohaku/cbird-rdf.git
+464 verbose tryClone git-https-github-com-YuuKohaku-cbird-rdf-git-12a6a8c5 not in flight; caching
+465 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+466 verbose get https://registry.npmjs.org/harmony-reflect not expired, no request
+467 silly resolveWithNewModule harmony-reflect@1.4.5 checking installable status
+468 silly cache add args [ 'harmony-reflect@>=1.4.5', null ]
+469 verbose cache add spec harmony-reflect@>=1.4.5
+470 silly cache add parsed spec Result {
+470 silly cache add   raw: 'harmony-reflect@>=1.4.5',
+470 silly cache add   scope: null,
+470 silly cache add   name: 'harmony-reflect',
+470 silly cache add   rawSpec: '>=1.4.5',
+470 silly cache add   spec: '>=1.4.5',
+470 silly cache add   type: 'range' }
+471 silly addNamed harmony-reflect@>=1.4.5
+472 verbose addNamed ">=1.4.5" is a valid semver range for harmony-reflect
+473 silly addNameRange { name: 'harmony-reflect', range: '>=1.4.5', hasData: false }
+474 silly mapToRegistry name harmony-reflect
+475 silly mapToRegistry using default registry
+476 silly mapToRegistry registry https://registry.npmjs.org/
+477 silly mapToRegistry uri https://registry.npmjs.org/harmony-reflect
+478 verbose addNameRange registry:https://registry.npmjs.org/harmony-reflect not in flight; fetching
+479 verbose get https://registry.npmjs.org/harmony-reflect not expired, no request
+480 silly addNameRange number 2 { name: 'harmony-reflect', range: '>=1.4.5', hasData: true }
+481 silly addNameRange versions [ 'harmony-reflect',
+481 silly addNameRange   [ '0.0.1',
+481 silly addNameRange     '0.0.2',
+481 silly addNameRange     '0.0.3',
+481 silly addNameRange     '0.0.4',
+481 silly addNameRange     '0.0.5',
+481 silly addNameRange     '0.0.6',
+481 silly addNameRange     '0.0.7',
+481 silly addNameRange     '0.0.8',
+481 silly addNameRange     '0.0.9',
+481 silly addNameRange     '0.0.10',
+481 silly addNameRange     '0.0.11',
+481 silly addNameRange     '0.0.12',
+481 silly addNameRange     '0.0.13',
+481 silly addNameRange     '1.0.0',
+481 silly addNameRange     '1.0.1',
+481 silly addNameRange     '1.1.0',
+481 silly addNameRange     '1.1.1',
+481 silly addNameRange     '1.1.2',
+481 silly addNameRange     '1.1.3',
+481 silly addNameRange     '1.2.0',
+481 silly addNameRange     '1.2.1',
+481 silly addNameRange     '1.3.0',
+481 silly addNameRange     '1.3.1',
+481 silly addNameRange     '1.4.0',
+481 silly addNameRange     '1.4.1',
+481 silly addNameRange     '1.4.2',
+481 silly addNameRange     '1.4.3',
+481 silly addNameRange     '1.4.4',
+481 silly addNameRange     '1.4.5' ] ]
+482 silly addNamed harmony-reflect@1.4.5
+483 verbose addNamed "1.4.5" is a plain semver version for harmony-reflect
+484 silly cache afterAdd harmony-reflect@1.4.5
+485 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\harmony-reflect\1.4.5\package\package.json not in flight; writing
+486 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+487 verbose afterAdd C:\Users\user\AppData\Roaming\npm-cache\harmony-reflect\1.4.5\package\package.json written
+488 info git [ 'config', '--get', 'remote.origin.url' ]
+489 silly validateExistingRemote git+https://github.com/YuuKohaku/cbird-rdf.git remote.origin.url: https://github.com/YuuKohaku/cbird-rdf.git
+490 verbose validateExistingRemote git+https://github.com/YuuKohaku/cbird-rdf.git is updating existing cached remote C:\Users\user\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-YuuKohaku-cbird-rdf-git-12a6a8c5
+491 info git [ 'fetch', '-a', 'origin' ]
+492 verbose updateRemote git fetch -a origin (https://github.com/YuuKohaku/cbird-rdf.git)
+493 verbose setPermissions git+https://github.com/YuuKohaku/cbird-rdf.git skipping chownr on Windows
+494 verbose resolveHead git+https://github.com/YuuKohaku/cbird-rdf.git original treeish: master
+495 info git [ 'rev-list', '-n1', 'master' ]
+496 silly resolveHead git+https://github.com/YuuKohaku/cbird-rdf.git resolved treeish: 76411902bae7236baccad9e20ece53d803f75fab
+497 verbose resolveHead git+https://github.com/YuuKohaku/cbird-rdf.git resolved Git URL: git+https://github.com/YuuKohaku/cbird-rdf.git#76411902bae7236baccad9e20ece53d803f75fab
+498 silly resolveHead Git working directory: C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-89335cbb\76411902bae7236baccad9e20ece53d803f75fab
+499 info git [ 'clone',
+499 info git   'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-YuuKohaku-cbird-rdf-git-12a6a8c5',
+499 info git   'C:\\Users\\user\\AppData\\Local\\Temp\\npm-4232-402a5ca8\\git-cache-89335cbb\\76411902bae7236baccad9e20ece53d803f75fab' ]
+500 verbose cloneResolved git+https://github.com/YuuKohaku/cbird-rdf.git clone Cloning into 'C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-89335cbb\76411902bae7236baccad9e20ece53d803f75fab'...
+500 verbose cloneResolved done.
+501 info git [ 'checkout', '76411902bae7236baccad9e20ece53d803f75fab' ]
+502 verbose checkoutTreeish git+https://github.com/YuuKohaku/cbird-rdf.git checkout Note: checking out '76411902bae7236baccad9e20ece53d803f75fab'.
+502 verbose checkoutTreeish
+502 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+502 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+502 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+502 verbose checkoutTreeish
+502 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+502 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+502 verbose checkoutTreeish
+502 verbose checkoutTreeish   git checkout -b <new-branch-name>
+502 verbose checkoutTreeish
+502 verbose checkoutTreeish HEAD is now at 7641190... 1
+503 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+504 verbose updateSubmodules git+https://github.com/YuuKohaku/cbird-rdf.git submodule update
+505 verbose addLocalDirectory C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz not in flight; packing
+506 verbose correctMkdir C:\Users\user\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+507 verbose tar pack [ 'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\cbird-rdf\\1.0.0\\package.tgz',
+507 verbose tar pack   'C:\\Users\\user\\AppData\\Local\\Temp\\npm-4232-402a5ca8\\git-cache-89335cbb\\76411902bae7236baccad9e20ece53d803f75fab' ]
+508 verbose tarball C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz
+509 verbose folder C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-89335cbb\76411902bae7236baccad9e20ece53d803f75fab
+510 error tar.pack Could not write C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz
+511 error addLocalDirectory Could not pack C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-89335cbb\76411902bae7236baccad9e20ece53d803f75fab to C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz
+512 error addLocal Could not install C:\Users\user\AppData\Local\Temp\npm-4232-402a5ca8\git-cache-89335cbb\76411902bae7236baccad9e20ece53d803f75fab
+513 silly fetchPackageMetaData Error: EPERM: operation not permitted, rename 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz.2752177774' -> 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz'
+513 silly fetchPackageMetaData     at Error (native)
+513 silly fetchPackageMetaData  error for cbird-rdf@git+https://github.com/YuuKohaku/cbird-rdf.git { [Error: EPERM: operation not permitted, rename 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz.2752177774' -> 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz']
+513 silly fetchPackageMetaData   errno: -4048,
+513 silly fetchPackageMetaData   code: 'EPERM',
+513 silly fetchPackageMetaData   syscall: 'rename',
+513 silly fetchPackageMetaData   path: 'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\cbird-rdf\\1.0.0\\package.tgz.2752177774',
+513 silly fetchPackageMetaData   dest: 'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\cbird-rdf\\1.0.0\\package.tgz' }
+514 silly rollbackFailedOptional Starting
+515 silly rollbackFailedOptional Finishing
+516 silly runTopLevelLifecycles Starting
+517 silly runTopLevelLifecycles Finishing
+518 silly install printInstalled
+519 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz.2752177774' -> 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz'
+519 verbose stack     at Error (native)
+520 verbose cwd C:\Users\user\Documents\GitHub\iris-service-history
+521 error Windows_NT 10.0.10586
+522 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\user\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "update"
+523 error node v5.9.1
+524 error npm  v3.7.3
+525 error path C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz.2752177774
+526 error code EPERM
+527 error errno -4048
+528 error syscall rename
+529 error Error: EPERM: operation not permitted, rename 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz.2752177774' -> 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz'
+529 error     at Error (native)
+529 error  { [Error: EPERM: operation not permitted, rename 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz.2752177774' -> 'C:\Users\user\AppData\Roaming\npm-cache\cbird-rdf\1.0.0\package.tgz']
+529 error   errno: -4048,
+529 error   code: 'EPERM',
+529 error   syscall: 'rename',
+529 error   path: 'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\cbird-rdf\\1.0.0\\package.tgz.2752177774',
+529 error   dest: 'C:\\Users\\user\\AppData\\Roaming\\npm-cache\\cbird-rdf\\1.0.0\\package.tgz',
+529 error   parent: 'resource-management-framework' }
+530 error Please try running this command again as root/Administrator.
+531 verbose exit [ -4048, true ]
