@@ -15,7 +15,7 @@ class History {
 		this.iris.initContent();
 	}
 	launch() {
-		this.emitter.on('history.log', ({
+		this.emitter.listenTask('history.log', ({
 			subject,
 			object,
 			event_name,
