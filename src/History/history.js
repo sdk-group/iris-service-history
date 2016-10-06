@@ -46,7 +46,8 @@ class History {
 		local_time,
 		object,
 		event_name,
-		reason
+		reason,
+		context
 	}) {
 		let time = moment.utc()
 			.format('x');
@@ -59,6 +60,7 @@ class History {
 			object,
 			event_name,
 			reason,
+			context,
 			time
 		};
 		return Promise.resolve(this.iris.makeEntry(entry));
