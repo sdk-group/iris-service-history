@@ -9,6 +9,7 @@ let tasks = [];
 
 module.exports = {
 	module: require('./history.js'),
+	name: 'history',
 	permissions: [],
 	exposed: true,
 	tasks: tasks,
